@@ -50,11 +50,23 @@ body {
 .paragraphSection {
   background-color: white;
   border-radius: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#footerSection {
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .logoImage {
     text-align: center;
+}
+#selfImage {
+  border-style: solid;      /* required for border to show */
+  border-color: black;
+  border-width: 5px;
+  border-radius: 20px
 }
 .tab-content {
   display: none;
