@@ -14,12 +14,12 @@ footer {
 body {
     background-color: rgb(147, 228, 255);
 }
-#heading {
+.heading {
   text-align: center;
   font-family: "Inter", sans-serif;
   display: block;
 }
-#headingTwo {
+.headingTwo {
   text-align: center;
   font-family: "Inter", sans-serif;
   display: block;
@@ -40,12 +40,18 @@ body {
   display: block;
   font-size: 20px
 }
-#subDescription {
+.subDescription {
   text-align: center;
   font-family: "Inter", sans-serif;
   display: block;
   font-size: 20px;
   font-weight: bold;
+}
+.paragraphSection {
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .logoImage {
     text-align: center;
